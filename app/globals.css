@@ -11,3 +11,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.btn-signin {
+  @apply bg-[#6622CC] text-xl text-[#D4FCC3] py-2 px-4 rounded-lg w-fit hover:bg-[#6f36c4];
+}
