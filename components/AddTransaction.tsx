@@ -20,7 +20,7 @@ const AddTransaction = () => {
 
   return (
     <>
-      <div className="mt-10 border-2 border-[#191923] rounded-lg p-10">
+      <div className="mt-10 border-2 border-[#191923] rounded-lg px-20 py-10">
         <h1>Add New Transaction</h1>
         <form action={clientAction} ref={formRef} className="space-y-6  mt-10">
           <div>

@@ -19,3 +19,7 @@ body {
 h1 {
   @apply text-2xl text-slate-700 font-bold cursor-pointer;
 }
+
+.transaction-total {
+  @apply flex flex-col items-center justify-center py-4 px-8 space-y-2 border-2 rounded-xl border-[#a23de0] cursor-pointer hover:bg-[#c594e3];
+}
